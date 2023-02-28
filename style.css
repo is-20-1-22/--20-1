@@ -1,0 +1,839 @@
+/* шрифты */
+@font-face {
+    font-family: "Open_Sans1";
+    src: url("font/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: "Open_Sans2";
+    src: url("font/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: "Open_Sans3";
+    src: url("font/OpenSans-SemiBold.ttf");
+}
+
+/* стили */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.h1 {
+    font-family: "Open_Sans3";
+    color: black;
+    font-size: 55px;
+}
+.head {
+    font-family: "Open_Sans2";
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.text {
+    font-family: "Open_Sans2";
+    color: black;
+    font-size: 17px;
+}
+.h2 {
+    font-family: "Open_Sans3";
+    color: #DE007D;
+    font-size: 30px;
+}
+.h3 {
+    font-family: "Open_Sans1";
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.h4 {
+    font-family: "Open_Sans1";
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.h5 {
+    font-family: "Open_Sans2";
+    color: white;
+    font-size: 20px;
+}
+.h6 {
+    font-family: "Open_Sans3";
+    color: white;
+    font-size: 55px;
+}
+.h7 {
+    font-family: "Open_Sans2";
+    color: #DE007D;
+    font-size: 16px;
+}
+button {
+    cursor: pointer;
+}
+
+
+/* расположение */
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+/* header начало */
+header {
+    background: black;
+    margin-bottom: 125px;
+}
+header .container ul {
+    list-style-type: none;
+    display: flex;
+    gap: 65px;
+}
+header .container {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .img2{
+    display: none;
+}
+header .container .img3{
+    display: none;
+}
+/* header конец */
+
+/* main начало */
+main .part1 {
+    background: url("img/room-with-a-red-wall-and-a-couch\ 2.png") no-repeat;
+    padding: 175px 0;
+    margin-bottom: 125px;
+}
+main .part1 .h5{
+    width: 440px;
+}
+main .part1 .container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main .part1 .container .img2 {
+    display: none;
+}
+main .part1 button {
+    margin-top: 55px;
+    background: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 345px;
+    height: 85px;
+    text-align: center;
+}
+main .part1 button:hover {
+    background: white;
+    border: 1px solid white;
+    color: black;
+}
+main .part2 {
+    margin-bottom: 125px;
+}
+main .part2 .container .img2 {
+    display: none;
+}
+main .part2 .container .down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .part2 .container .text{
+    width: 650px;
+    text-align: justify;
+}
+main .part2 .container .h1{
+    margin-bottom: 60px;
+}
+main .part3 {
+    background: black;
+    padding: 20px 0;
+    margin-bottom: 125px;
+}
+main .part3 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .part3 .container .left ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style-type: none;
+}
+main .part3 .container .right ul {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+main .part3 .container .right .text{
+    color: white;
+    width: 650px;
+}
+main .part4 {
+    margin-bottom: 125px;
+}
+main .part4 .container ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+main .part4 .container ul li img {
+    margin-bottom: 30px;
+}
+main .part4 .container .h1 {
+    margin-bottom: 105px;
+}
+main .part4 {
+    margin-bottom: 125px;
+}
+main .part5 {
+    margin-bottom: 125px;
+}
+main .part5 .container ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+main .part5 .container ul li img {
+    margin-bottom: 30px;
+}
+main .part5 .container ul li #text2 {
+    display: none;
+}
+main .part5 .container .h1 {
+    margin-bottom: 105px;
+}
+
+main .part6 .container .otzivi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .part6 .container .h1 {
+    margin-bottom: 55px;
+}
+main .part6 .container article {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    background: #F5F5F5;
+    width: 575px;
+    padding: 25px 40px;
+    margin-bottom: 30px;
+}
+main .part6 .container article .text {
+    width: 440px;
+}
+main .part6 {
+    margin-bottom: 125px;
+}
+main .part7 {
+    margin-bottom: 125px;
+}
+main .part7 {
+    background: black;
+    border-radius: 70px;
+    width: 1470px;
+    margin: 0 auto;
+    padding: 65px 0;
+}
+main .part7 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    align-items: center;
+}
+main .part7 .container .h5, main .part7 .container .h1 {
+    text-align: center;
+}
+main .part7 .container ul {
+    display: flex;
+    gap: 75px;
+}
+main .part7 .container ul input {
+    width: 430px;
+    height: 70px;
+    background: white;
+    border: none;
+    border-radius: 100px;
+    color: black;
+}
+main .part7 .container ul div {
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+main .part7 .container .h1 {
+    color: white;
+}
+main .part7 .container button {
+    background: #DE007D;
+    width: 355px;
+    height: 70px;
+    border-radius: 100px;
+    padding: 20px 70px;
+    border: none;
+    border: 1px solid #DE007D;
+}
+main .part7 .container button:hover {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #DE007D;
+}
+/* main конец */
+
+/* footer начало */
+footer {
+    background: black;
+    margin: 0;
+    margin-top: 125px;
+    padding: 20px 0;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer .container .up .h5 {
+    text-align: center;
+}
+footer .container .up ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+footer .container .down .h3 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+footer .container .down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+footer .container .down .uls {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+footer .container .down .uls .text_bold{
+    font-size: 13px;
+    color: white;
+    font-family: "Open_Sans1";
+    font-weight: bold;
+}
+footer .container .down .center .img2 {
+    display: none;
+}
+footer .container .down .uls .text{
+    font-size: 14px;
+    color: white;
+}
+footer .container .down .uls .ul1, footer .container .down .uls .ul2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer .container .down .uls .ul1 li ul{
+    display: flex;
+    gap: 5px;
+}
+footer .container .down .uls .ul2 li ul{
+    display: flex;
+    gap: 5px;
+}
+footer .container .down .center ul {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+footer .container .down .center ul li {
+    cursor: pointer;
+}
+footer .container .down .right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0;
+    margin-top: 60px;
+}
+footer .container .down .right ul li {
+    color: rgb(68, 68, 68);
+    font-size: 14px;
+    margin: 0;
+}
+footer .container .up .h5 {
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+}
+footer .container .up .img {
+    text-align: center;
+}
+
+/* footer конец */
+
+/* адаптивка для планшета */
+
+@media (max-width:1280px) {
+    body {
+        width: 1280px;
+    }
+    .container {
+        width: 865px;
+        margin: 0 auto;
+    }
+    .h1 {
+        font-size: 45px;
+    }
+    .h6 {
+        font-size: 45px;
+    }
+
+    
+    header .container ul{
+        display: none;
+    }
+    header .container .img3{
+        display: ruby;
+    }
+
+    main .part1 {
+        padding: 100px 0;
+        background: url("img/room-with-a-red-wall-and-a-couch\ 2.png") no-repeat center;
+    }
+    main .part1 button{
+        margin-top: 50px;
+    }
+
+    main .part2 .container .img2{
+        display: ruby;
+    }
+    main .part2 .container .img1{
+        display: none;
+    }
+    main .part2 .container .text{
+        width: 500px;
+    }
+
+    main .part3 {
+        padding: 40px 0;
+    }
+    main .part3 .container{
+        gap: 50px;
+    }
+    main .part3 .container .right .text{
+        width: 520px;
+    }
+
+    main .part4 .container .h1 {
+        margin-bottom: 105px;
+    }
+    main .part4 {
+        margin-bottom: 125px;
+    }
+    main .part5 {
+        margin-bottom: 125px;
+    }
+    main .part5 .container ul {
+        list-style-type: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content:center;
+        gap: 100px;
+    }
+    main .part5 .container ul li .h3{
+        width: 168px;
+    }
+    main .part5 .container .h1 {
+        margin-bottom: 70px;
+    }
+
+    main .part6 .container article {
+        display: flex;
+        align-items: flex-start;
+        gap: 25px;
+        flex-wrap: wrap;
+        background: #F5F5F5;
+        width: 865px;
+        padding: 25px 70px;
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+    main .part6 .container article .text {
+        width: 600px;
+        text-align: justify;
+    }
+
+    main .part7 {
+        background: black;
+        border-radius: 70px;
+        width: 950px;
+        margin: 0 auto;
+        padding: 65px 0;
+    }
+    main .part7 .container ul {
+        display: flex;
+        gap: 28px;
+        flex-direction: column;
+        padding: 0;
+    }
+    main .part7 .container button {
+        width: 430px;
+    }
+    main .part7 .container {
+        gap: 20px;
+    }
+    
+}
+
+/* конец */
+
+/* адаптивка для телефона */
+
+@media (max-width:720px) {
+    body {
+        width: 720px;
+    }
+    .container {
+        width: 485px;
+        margin: 0 auto;
+    }
+    .h1 {
+        font-size: 35px;
+        width: 300px;
+    }
+    .h6 {
+        font-size: 35px;
+    }
+    .text {
+        font-size: 15px;
+    }
+
+    header .container .img1{
+        display: none;
+    }
+    header .container ul{
+        display: none;
+    }
+    header .container .img2{
+        display: ruby;
+    }
+    header .container .img3{
+        display: ruby;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+    main .part1, main .part2, main .part3, main .part4, main .part5, main .part6, main .part7{
+        margin-bottom: 50px;
+    }
+
+    main .part1 {
+        padding: 100px 0;
+        background: url("img/room-with-a-red-wall-and-a-couch\ 2.png") no-repeat center;
+    }
+    main .part1 .h5{
+        width: 350px;
+    }
+    main .part1 button{
+        margin-top: 50px;
+    }
+    main .part1 .container .img1 {
+        display: none;
+    }
+    main .part1 .container .img2 {
+        display: ruby;
+    }
+
+    main .part2 .container .img1{
+        display: none;
+    }
+    main .part2 .container .img2{
+        display: none;
+    }
+
+    main .part3 {
+        padding: 10px 0;
+    }
+    main .part3 .container .left{
+        display: none;
+    }
+    main .part3 .container .right .text{
+        width: 400px;
+        margin-bottom: 15px;
+    }
+
+    main .part4 .container .h1 {
+        margin-bottom: 40px;
+    }
+    main .part4 {
+        margin-bottom: 50px;
+    }
+    main .part4 .container ul {
+        flex-wrap: wrap;
+        gap: 80px;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    main .part5 .container ul {
+        list-style-type: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content:center;
+        gap: 100px;
+    }
+    main .part5 .container ul li .h3{
+        width: 168px;
+    }
+    main .part5 .container .h1 {
+        margin-bottom: 40px;
+    }
+    main .part5 {
+        margin-bottom: 50px;
+    }
+
+    main .part6 .container article {
+        display: flex;
+        align-items: flex-start;
+        gap: 25px;
+        flex-wrap: wrap;
+        background: #F5F5F5;
+        width: 385px;
+        padding: 25px 70px;
+        margin-bottom: 30px;
+    }
+    main .part6 .container article .text {
+        width: 350px;
+        text-align: justify;
+    }
+    main .part6 .container article .left {
+        display: none;
+    }
+    main .part6 .container article img {
+        display: none;
+    }
+    main .part6 {
+        margin-bottom: 50px;
+    }
+
+    main .part7 {
+        margin-bottom: 50px;
+    }
+    main .part7 {
+        background: black;
+        border-radius: 70px;
+        width: 600px;
+        margin: 0 auto;
+        padding: 65px 0;
+    }
+    main .part7 .container ul {
+        display: flex;
+        gap: 28px;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+    }
+    main .part7 .container ul input {
+        width: 400px;
+    }
+    main .part7 .container button {
+        width: 400px;
+    }
+    main .part7 .container {
+        gap: 20px;
+    }
+
+    footer .container {
+        width: 620px;
+    }
+    footer .container .up .h5 {
+        text-align: center;
+    }
+    footer .container .up ul {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    footer .container .down .h3 {
+        color: white;
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    footer .container .down {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    footer .container .down .uls {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    footer .container .down .uls .text_bold{
+        font-size: 12px;
+        color: white;
+        font-family: "Open_Sans1";
+        font-weight: bold;
+    }
+    footer .container .down .uls .text{
+        font-size: 12px;
+        color: white;
+    }
+    footer .container .down .uls .ul1, footer .container .down .uls .ul2{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    footer .container .down .uls .ul1 li ul{
+        display: flex;
+        gap: 5px;
+    }
+    footer .container .down .uls .ul2 li ul{
+        display: flex;
+        gap: 5px;
+    }
+    footer .container .down .center ul {
+        display: flex;
+        gap: 15px;
+        margin: 0;
+    }
+    footer .container .down .center ul li {
+        cursor: pointer;
+    }
+    footer .container .down .right ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: 0;
+        margin-top: 60px;
+    }
+    footer .container .down .right ul li {
+        color: rgb(68, 68, 68);
+        font-size: 12px;
+        margin: 0;
+    }
+    footer .container .up .h5 {
+        color: rgb(68, 68, 68);
+        font-size: 16px;
+    }
+    footer .container .up .img {
+        text-align: center;
+    }
+    footer .container .down .center .img2 {
+        display: ruby;
+    }
+    footer .container .down .center .img1 {
+        display: none;
+    }
+}
+
+/* конец */
+
+/* страница "НОВОСТИ" начало */
+
+/* стили */ 
+
+h1 {
+    font-family: "Open_Sans1";
+    color: black;
+    font-size: 55px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+h2 {
+    font-family: "Open_Sans1";
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.news {
+    font-family: "Open_Sans2";
+    color: #DE007D;
+    font-size: 15px;
+}
+.text1 {
+    font-family: "Open_Sans2";
+    color: rgb(228, 228, 228);
+    font-size: 17px;
+    text-align: justify;
+}
+span {
+    font-family: "Open_Sans1";
+}
+
+/* main начало */
+
+main .news1 {
+    background: url("img/news_90187.jpg") no-repeat center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+main .news2 {
+    background: url("img/photo_2023-02-27_20-34-18.jpg") center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+main .news1 .container .text {
+    margin-top: 15px;
+}
+main .news2 .container .text {
+    margin-top: 15px;
+}
+
+/* main конец */
+
+/* страница "НОВОСТИ" конец */
+
+/* новостная странииа 1 начало */
+
+/* main начало */
+
+main .container ul {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+}
+main .container ul .text {
+    width: 550px;
+    text-align: justify;
+}
+
+/* main конец */
+
+/* новостная странииа 1 конец */
